@@ -1,4 +1,14 @@
-H1{
+#banner{
+  Width: 100%;
+}
+
+
+
+.titulo-principal{
+  padding-left: 20px;
+}
+
+.texto-centralizado{
   text-align: center;
 }
 
