@@ -2,6 +2,12 @@
   Width: 100%;
 }
 
+.principal{
+   background-color: #CCCCCC;
+   padding: 30px;
+}
+
+
 
 
 .titulo-principal{
@@ -19,4 +25,15 @@ p{
 
 #missao{
 font-size: 28px;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  Width: 20%;
+  margin-rigth: 15%;
+}
+
+.imagem-beneficios{
+  Width: 50%;
 }
