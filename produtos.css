@@ -8,6 +8,16 @@ nav li{
   margin-left: 15px;
 }
 
+.caixa{
+  widith:940px;
+  position:relative;
+  margin:0 auto;
+}
+nav {
+  position:absolute;
+  top: 110px;
+  right :0;
+}
 nav a{
   color: #000000;
   text-decoration: none;
