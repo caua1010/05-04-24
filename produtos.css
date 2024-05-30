@@ -9,14 +9,15 @@ nav li{
 }
 
 .caixa{
-  widith:940px;
-  position:relative;
-  margin:0 auto;
+  widith: 940px;
+  position: relative;
+  margin: 0 auto;
 }
 nav {
   position:absolute;
   top: 110px;
   right :0;
+  
 }
 nav a{
   color: #000000;
@@ -29,4 +30,23 @@ nav a{
 nav a:hover{
   color: #C78C19;
   text-decoration: underline;
+}
+
+
+.produtos{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.produtos li{
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  padding: 30px 20px;
 }
