@@ -65,3 +65,13 @@ nav a:hover{
 .produtos li:active{
   border-color: #088C19;
 }
+
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+}
