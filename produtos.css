@@ -1,7 +1,21 @@
 header{
   background-color: #BBBBBB;
-  padding: 20px 0;
+  padding: 20px 0px;
 }
+
+.caixa{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  rigth: 0;
+}
+
+
 
 nav li{
   display: inline;
@@ -9,42 +23,45 @@ nav li{
 }
 
 
-
-.caixa{
-  widith: 940px;
-  position: relative;
-  margin: 0 auto;
-}
-nav {
-  position:absolute;
-  top: 110px;
-  right :0;
-  
-}
-nav a{
-  color: #000000;
+nav a {
+  color:#000000;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 22px;
 }
 
-nav a:hover{
+nav a: hover{
   color: #C78C19;
   text-decoration: underline;
 }
 
-
-.produtos{
+.produtos {
   width: 940px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px;
 }
+
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao{
+  font-size: 18px;
+}
+
+.produto-preco{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
 
 .produtos li{
   display: inline-block;
   border: 1px solid #000000;
-  border-radius: 10px;
+border-radius: 10px;  
   text-align: center;
   width: 30%;
   vertical-align: top;
@@ -53,22 +70,35 @@ nav a:hover{
   padding: 30px 20px;
 }
 
+
 .produtos li:hover{
   border-color: #C78C19;
 }
+
 
 .produtos li:hover h2{
   font-size: 34px;
 }
 
-
 .produtos li:active{
   border-color: #088C19;
 }
 
+footer{
+  background: url("bg.jpg");
+text-align: center;
+  padding: 40px 0;
+}
+
+.copyright{
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
 main{
-  width: 940px;
-  margin: 0 auto;
+  background: linear-gradient(#fefefe, #888888);
+  
 }
 
 .input-padrao{
@@ -78,53 +108,115 @@ main{
   width: 50%;
 }
 
-#banner{
-  Width: 100%;
+
+.checkbox {
+  margin: 20px 0;
+}
+
+label{
+display: block;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.enviar:hover{
+  background: darkorange;
+transform: scale(1.2);
+}
+
+table{
+  margin: 20px 0 10px 0;
+  
+}
+
+thead{
+  background: #555555;
+  color: white;
+font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #555555;
+  padding: 8px 15px;
+}
+
+.banner{
+  width:100%;
 }
 
 .principal{
-   background-color: #CCCCCC;
-   padding: 30px;
-}
-
-
-
-
-.titulo-principal{
-  padding-left: 20px;
-  text-align: Center;
-}
-
-.texto-centralizado{
-  text-align: center;
-}
-
-p{
-  text-align: center;
+  
+  padding: 1em 0;
+  margin: 0 auto;
+  width: 940px;
   
 }
-em strong{
-  color: red;
+
+.titulo-principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  
 }
-#missao{
-font-size: 28px;
+
+
+.principal p{
+margin: 0 0 1em;
 }
+
+
+
 .beneficios{
   padding: 20px;
-  background-color:#FFFFFF;
+  width: 940px;
+margin: 0 auto;
 }
+
 
 ul{
   display: inline-block;
   vertical-align: top;
-  Width: 20%;
-  margin-rigth: 15%;
+  width: 25%;
 }
 
 .item{
   font-style: italic;
 }
 
-.imagem-beneficios{
-  Width: 50%;
+.imagem-beneficios {
+  width: 50%;
+}
+
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.mapa{
+  padding: 3em 0;
+  margin: 0 auto;
+  width: 940px;
   
+}
+
+.mapa p {
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.mapa-conteudo{
+  width: 940px;
+  margin: 0 auto;
+}
